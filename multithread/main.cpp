@@ -161,6 +161,7 @@ int main(void) {
         for (std::thread& t : threads) {
             t.join();
         }
+        
         // std::thread t1(CalculateFractal, fractalArgs, 0, 0, 200, fractalArgs->screenHeight);
         // std::thread t2(CalculateFractal, fractalArgs, 200, 0, 400, fractalArgs->screenHeight);
         // std::thread t3(CalculateFractal, fractalArgs, 400, 0, 600, fractalArgs->screenHeight);
